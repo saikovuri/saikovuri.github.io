@@ -189,7 +189,7 @@ ul#nav li.current a { color: #F06000; }
 #about {
    background: #191919;
    padding-top: 50px;
-   padding-bottom: 50px;
+   padding-bottom: 20px;
    overflow: hidden;
 }
 
@@ -259,6 +259,7 @@ ul#nav li.current a { color: #F06000; }
 #education {
    background: #ebeeee;;
    padding-top: 50px;
+   padding-bottom: 25px;
    overflow: hidden;
 }
 
@@ -282,6 +283,7 @@ ul#nav li.current a { color: #F06000; }
 #education .main-col { padding-right: 10%; }
 
 .education {
+  padding-bottom: 20px;
     border-bottom: 1px solid #11ABB0;
 }
 
@@ -307,7 +309,8 @@ ul#nav li.current a { color: #F06000; }
 
 #work {
    background: #ebeeee;;
-   padding-top: 50px;
+   padding-top: 20px;
+   padding-bottom: 25px;
    overflow: hidden;
 }
 
@@ -364,7 +367,7 @@ ul#nav li.current a { color: #F06000; }
 #skills {
    background: #191919;
    padding-top: 50px;
-   
+   padding-bottom: 20px;
    overflow: hidden;
 }
 #skills h1 {

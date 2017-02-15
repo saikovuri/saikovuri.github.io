@@ -1,8 +1,6 @@
 ﻿<?php
 
-
 $siteOwnersEmail = 'saikovuri367@gmail.com';
-
 
 if($_POST) {
 
