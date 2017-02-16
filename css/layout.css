@@ -322,12 +322,12 @@ ul#nav li.current a { color: #F06000; }
 }
 
 #education .info {
- font-size : 14px !important ;
+ font-size : 13px !important ;
  color: black;
  font-weight: bold;
  margin-bottom: 18px;
  margin-top: 5px !important;  
- margin-right: 40px !important
+ margin-right: 35px !important
 }
 #education .info span {
   display: none;
@@ -393,7 +393,7 @@ ul#nav li.current a { color: #F06000; }
 
 @media only screen and (max-width: 767px) {
 #work h3 {
- font: 15px/30px 'opensans-bold', sans-serif;
+ font: 14px/30px 'opensans-bold', sans-serif;
  padding-top: 10px;
  margin-bottom: -5px 
 }
@@ -412,7 +412,7 @@ ul#nav li.current a { color: #F06000; }
   color: black;
   margin-bottom: 18px;
   margin-top: 5px !important;
-  margin-right: 60px;
+  margin-right: 30px;
 
 }
 #work .info span {
