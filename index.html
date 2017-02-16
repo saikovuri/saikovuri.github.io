@@ -160,7 +160,7 @@
          <div class="fourteen columns">
 
           <h3>Netcracker Technology Solutions</h3>
-          <p class="info">Associate Software Engineer &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span>&bull;</span> <em class="date">June 2013 - December 2015</em></p>
+          <p class="info">Associate Software Engineer &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span>&bull;</span> <em class="date">June 2013 - Dec 2015</em></p>
 
           <ul style="text-align:justify;" class="li">
             <li><span>&bull;</span>  Developed Card Account Manager Web Application using Java/J2EE and Struts framework.</li>
@@ -337,30 +337,9 @@
 
               </div>
             </div>
-
-
-
-
-					   <!-- <li><span class="bar-expand java"></span><em>Java</em></li>
-                  <li><span class="bar-expand csharp"></span><em>C#</em></li>
-						<li><span class="bar-expand cpp"></span><em>C++</em></li>
-						<li><span class="bar-expand angular"></span><em>AngularJS</em></li>
-						<li><span class="bar-expand android"></span><em>Android</em></li>
-                  <li><span class="bar-expand html"></span><em>HTML5/CSS/BOOTSTRAP</em></li>
-                  <li><span class="bar-expand jsp"></span><em>JSP</em></li>
-                  <li><span class="bar-expand javascript"></span><em>JavScript</em></li>
-                  <li><span class="bar-expand shell"></span><em>Shell Scripting</em></li>
-                  <li><span class="bar-expand jquery"></span><em>JQuery</em></li>
-                  <li><span class="bar-expand javafx"></span><em>JavaFX</em></li>
-                  <li><span class="bar-expand struts"></span><em>Struts</em></li>
-                  <li><span class="bar-expand matlab"></span><em>Matlab</em></li>
-                </ul> -->
-
-
-
-              </div>
-            </div>
-          </section><!-- end skill-bars-->
+          </div>
+        </div>
+      </section><!-- end skill-bars-->
 
 
 
@@ -498,7 +477,7 @@
 
           <div class="link-box">
            <a href="https://github.com/saikovuri" target="_blank">Details</a>
-           <a class="popup-modal-dismiss" style="margin-left: 375px"><span style="color: red;font-size: 13px">✖</span> Close</a>
+           <a class="popup-modal-dismiss" id=modal><span style="color: red;font-size: 13px">✖</span> Close</a>
          </div>
 
          <img class="scale-with-grid" src="images/projects/modals/sdn.jpg" alt="" />
@@ -516,7 +495,7 @@
 
         <div class="link-box">
          <a href="https://github.com/saikovuri" target="_blank">Details</a>
-         <a class="popup-modal-dismiss" style="margin-left: 375px"><span style="color: red;font-size: 13px">✖</span> Close</a>
+         <a class="popup-modal-dismiss" id=modal><span style="color: red;font-size: 13px">✖</span> Close</a>
        </div>
        <img class="scale-with-grid" src="images/projects/modals/svm.jpg" alt="" />
 
@@ -532,7 +511,7 @@
      <div id="modal-03" class="popup-modal mfp-hide">
       <div class="link-box">
        <a href="https://github.com/saikovuri" target="_blank">Details</a>
-       <a class="popup-modal-dismiss" style="margin-left: 375px"><span style="color: red;font-size: 13px">✖</span> Close</a>
+       <a class="popup-modal-dismiss" id=modal><span style="color: red;font-size: 13px">✖</span> Close</a>
      </div>
      <img class="scale-with-grid" src="images/projects/modals/eyetesting.jpg" alt="" />
 
@@ -547,7 +526,7 @@
    <div id="modal-04" class="popup-modal mfp-hide">
     <div class="link-box">
      <a href="https://github.com/saikovuri" target="_blank">Details</a>
-     <a class="popup-modal-dismiss" style="margin-left: 375px"><span style="color: red;font-size: 13px">✖</span> Close</a>
+     <a class="popup-modal-dismiss" id=modal><span style="color: red;font-size: 13px">✖</span> Close</a>
    </div>
    <img class="scale-with-grid" src="images/projects/modals/xisalone.jpg" alt="" />
 
@@ -563,7 +542,7 @@
  <div id="modal-05" class="popup-modal mfp-hide">
   <div class="link-box">
    <a href="https://github.com/saikovuri" target="_blank">Details</a>
-   <a class="popup-modal-dismiss" style="margin-left: 375px"><span style="color: red;font-size: 13px">✖</span> Close</a>
+   <a class="popup-modal-dismiss" id=modal><span style="color: red;font-size: 13px">✖</span> Close</a>
  </div>
  <img class="scale-with-grid" src="images/projects/modals/encrypt.jpg" alt="" />
 
@@ -579,7 +558,7 @@
 <div id="modal-06" class="popup-modal mfp-hide">
   <div class="link-box">
    <a href="https://github.com/saikovuri" target="_blank">Details</a>
-   <a class="popup-modal-dismiss" style="margin-left: 375px"><span style="color: red;font-size: 13px">✖</span> Close</a>
+   <a class="popup-modal-dismiss" id=modal><span style="color: red;font-size: 13px">✖</span> Close</a>
  </div>
  <img class="scale-with-grid" src="images/projects/modals/checkers.jpg" alt="" />
 
@@ -621,7 +600,7 @@
   <div class="eight columns">
 
    <!-- form -->
-   <form action="" method="post" id="contactForm" name="contactForm">
+   <form action="inc/sendEmail.php" method="get" id="contactForm" name="contactForm">
      <fieldset>
 
       <div>
@@ -668,7 +647,8 @@
 
  <div style="padding-left:100px  " class="widget widget_contact">
 
-  <h4 style="color: #B8860B;font: 18px/20px 'opensans-semibold', sans-serif;">Address and Phone</h4>
+  
+  <h4>Address and Phone</h4> 
   <p class="address">
    Sai Kumar Kovuri<br>
    1728 E Broadway, APT C<br>

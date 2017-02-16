@@ -294,12 +294,15 @@ ul#nav li.current a { color: #F06000; }
  text-transform: uppercase;
  letter-spacing: 1px;
 }
+
+
 #education h1 span {
  border-bottom: 3px solid #11ABB0;
- padding-bottom: 6px;
+ padding-bottom: 2px;
 }
 #education h3 {
- font: 20px/30px 'opensans-bold', sans-serif;
+  padding-top: 15px;
+  font: 20px/30px 'opensans-bold', sans-serif;
 }
 
 #education .header-col { padding-top: 9px; }
@@ -309,6 +312,39 @@ ul#nav li.current a { color: #F06000; }
  padding-bottom: 20px;
  border-bottom: 1px solid #11ABB0;
 }
+
+@media only screen and (max-width: 767px) {
+
+#education h3 {
+  padding-top: 10px !important;
+  font: 15px/30px 'opensans-bold', sans-serif !important;
+  margin-bottom: -5px 
+}
+
+#education .info {
+ font-size : 14px !important ;
+ color: black;
+ font-weight: bold;
+ margin-bottom: 18px;
+ margin-top: 5px !important;  
+ margin-right: 40px !important
+}
+#education .info span {
+  display: none;
+ font-weight: bold;
+ color: black;
+ margin-right: 3px !important;
+}
+#education .date {
+  font-weight: bold;
+  color: black;
+  font: 13px/24px 'opensans-regular', sans-serif !important;
+  margin-top: 6px;
+  
+}
+
+}
+
 
 #education .info {
  font: 20px/24px ;
@@ -347,11 +383,56 @@ ul#nav li.current a { color: #F06000; }
 }
 #work h1 span {
  border-bottom: 3px solid #11ABB0;
- padding-bottom: 6px;
+ padding-bottom: 2px;
 }
 #work h3 {
  font: 20px/30px 'opensans-bold', sans-serif;
+ padding-top: 15px
 }
+
+
+@media only screen and (max-width: 767px) {
+#work h3 {
+ font: 15px/30px 'opensans-bold', sans-serif;
+ padding-top: 10px;
+ margin-bottom: -5px 
+}
+
+#work .li {
+  text-align: justify-all !important;
+  font-size: 13px !important ;
+  color: #6E7881;
+  margin-bottom: 25px;
+  margin-top: 5px !important;
+}
+
+#work .info {
+  font-weight: bold;
+  font-size:  14px !important;
+  color: black;
+  margin-bottom: 18px;
+  margin-top: 5px !important;
+  margin-right: 60px;
+
+}
+#work .info span {
+  display: none;
+ font-weight: bold;
+ color: black;
+ margin-right: 3px !important;
+}
+#work .date {
+  font-weight: bold;
+  color: black;
+  font: 13px/24px 'opensans-regular', sans-serif !important;
+  margin-top: 6px;
+  
+}
+
+
+}
+
+
 #work .li {
   text-align: justify;
   font-size: 14px ;
@@ -404,7 +485,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #skills h1 span {
  border-bottom: 3px solid #11ABB0;
- padding-bottom: 6px;
+ padding-bottom: 2px;
 }
 
 .bars {
@@ -903,6 +984,42 @@ ul#nav li.current a { color: #F06000; }
  letter-spacing: 2px;
  cursor: pointer;
 }
+#modal{
+  margin-left: 375px
+}
+
+@media only screen and (max-width: 767px) {
+
+  #modal{
+    margin-left: 95px
+  }
+
+  .popup-modal .description-box p {
+    font: 12px/24px 'opensans-regular', sans-serif;
+    color: #A1A1A1;
+    text-align: justify;
+    margin-bottom: 12px;
+  }
+
+  .popup-modal .description-box h4 {
+   font: 13px/24px 'opensans-bold', sans-serif;
+   margin-bottom: 12px;
+   color: #111;
+ }
+
+ .popup-modal .description-box .categories {
+   font: 10px/21px 'opensans-light', sans-serif;
+   color: #A1A1A1;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   display: block;
+   text-align: left;
+ }
+
+
+
+}
+
 .popup-modal a:hover {	color: #00CCCC; }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
 
@@ -1169,11 +1286,38 @@ call-to-action .button {
 }
 
 #contact h4 {
- font: 16px/24px 'opensans-bold', sans-serif;
- color: #EBEEEE;
+ font: 18px/20px 'opensans-semibold', sans-serif;
+ color: #B8860B;
  margin-bottom: 6px;
 } 
-#contact p.lead {
+
+@media only screen and (max-width: 767px) {
+  #contact h4 {
+   font: 18px/20px 'opensans-semibold', sans-serif;
+   color: #B8860B;
+   margin-bottom: 6px;
+   margin-left: -30px
+ }
+ #contact .address{
+
+   margin-left: -30px
+}
+#contact button.submit {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color:#fff;
+ background: red;
+ border: none;
+ cursor: pointer;
+ height: auto;
+ display: inline-block;
+ border-radius: 3px;
+ margin-left: 30% !important;
+}
+
+}
+
+contact p.lead {
  font: 22px/36px 'opensans-semibold', sans-serif;
  padding-right: 0%;
  padding-top: 3%;
@@ -1221,7 +1365,7 @@ call-to-action .button {
  height: auto;
  display: inline-block;
  border-radius: 3px;
- margin-left: 26%;
+ margin-left: 50%;
 }
 #contact button.submit:hover {
 	color: #0D0D0D;
