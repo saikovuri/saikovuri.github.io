@@ -979,7 +979,7 @@ ul#nav li.current a { color: #F06000; }
 @media only screen and (max-width: 767px) {
 
   #modal{
-    margin-left: 80px
+    margin-left: 100px
   }
 
   .popup-modal .description-box p {
