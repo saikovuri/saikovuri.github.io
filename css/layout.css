@@ -315,25 +315,25 @@ ul#nav li.current a { color: #F06000; }
 
 @media only screen and (max-width: 767px) {
 
-#education h3 {
-  padding-top: 15px !important;
-  font: 15px/30px 'opensans-bold', sans-serif !important;
-  margin-bottom: -5px 
-}
+  #education h3 {
+    padding-top: 15px !important;
+    font: 15px/30px 'opensans-bold', sans-serif !important;
+    margin-bottom: -5px 
+  }
 
-#education .info {
- font-size : 13px !important ;
- color: black;
- font-weight: bold;
- margin-bottom: 18px;
- margin-top: 5px !important;  
- margin-right: 70px !important
-}
-#education .info span {
+  #education .info {
+   font-size : 13px !important ;
+   color: black;
+   font-weight: bold;
+   margin-bottom: 18px;
+   margin-top: 5px !important;  
+  /* margin-right: 70px !important*/
+ }
+ #education .info span {
   display: none;
- font-weight: bold;
- color: black;
- margin-right: 3px !important;
+  font-weight: bold;
+  color: black;
+  margin-right: 3px !important;
 }
 #education .date {
   font-weight: bold;
@@ -341,6 +341,10 @@ ul#nav li.current a { color: #F06000; }
   font: 13px/24px 'opensans-regular', sans-serif !important;
   margin-top: 6px;
   
+}
+
+#line{
+  display: inline !important;
 }
 
 }
@@ -389,16 +393,18 @@ ul#nav li.current a { color: #F06000; }
  font: 20px/30px 'opensans-bold', sans-serif;
  padding-top: 15px
 }
-
-
-@media only screen and (max-width: 767px) {
-#work h3 {
- font: 14px/30px 'opensans-bold', sans-serif;
- padding-top: 15px;
- margin-bottom: -5px 
+#line{
+  display: none;
 }
 
-#work .li {
+@media only screen and (max-width: 767px) {
+  #work h3 {
+   font: 14px/30px 'opensans-bold', sans-serif;
+   padding-top: 15px;
+   margin-bottom: -5px 
+ }
+
+ #work .li {
   text-align: justify-all !important;
   font-size: 13px !important ;
   color: #6E7881;
@@ -412,14 +418,14 @@ ul#nav li.current a { color: #F06000; }
   color: black;
   margin-bottom: 18px;
   margin-top: 5px !important;
-  margin-right: 85px !important;
+  /*margin-right: 85px !important;*/
 
 }
 #work .info span {
   display: none;
- font-weight: bold;
- color: black;
- margin-right: 3px !important;
+  font-weight: bold;
+  color: black;
+  margin-right: 3px !important;
 }
 #work .date { 
   font-weight: bold;
@@ -427,6 +433,9 @@ ul#nav li.current a { color: #F06000; }
   font: 13px/24px 'opensans-regular', sans-serif !important;
   margin-top: 6px;
   
+}
+#line{
+  display: inline !important;
 }
 
 
@@ -827,20 +836,20 @@ ul#nav li.current a { color: #F06000; }
 }
 #projects h4 {
   display: none;
- font: 15px/20px 'opensans-semibold', sans-serif;
- text-align: center;
- margin-bottom: 48px;
- color: #191970;
+  font: 15px/20px 'opensans-semibold', sans-serif;
+  text-align: center;
+  margin-bottom: 48px;
+  color: #191970;
 }
 
 @media only screen and (max-width: 767px) {
-#projects h4 {
-  display: block; !important;
- font: 14px/20px 'opensans', sans-serif;
- text-align: center;
- margin-bottom: 25px;
- color: #191919;
-}
+  #projects h4 {
+    display: block; !important;
+    font: 14px/20px 'opensans', sans-serif;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #191919;
+  }
 }
 
 
@@ -1289,18 +1298,18 @@ call-to-action .button {
  #contact .address{
 
    margin-left: -30px
-}
-#contact button.submit {
+ }
+ #contact button.submit {
   text-transform: uppercase;
   letter-spacing: 3px;
   color:#fff;
- background: red;
- border: none;
- cursor: pointer;
- height: auto;
- display: inline-block;
- border-radius: 3px;
- margin-left: 30% !important;
+  background: red;
+  border: none;
+  cursor: pointer;
+  height: auto;
+  display: inline-block;
+  border-radius: 3px;
+  margin-left: 30% !important;
 }
 
 }
