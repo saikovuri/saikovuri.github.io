@@ -327,7 +327,7 @@ ul#nav li.current a { color: #F06000; }
    font-weight: bold;
    margin-bottom: 18px;
    margin-top: 5px !important;  
-  /* margin-right: 70px !important*/
+   /* margin-right: 70px !important*/
  }
  #education .info span {
   display: none;
@@ -523,6 +523,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 
+
 .progress .color1,
 .progress .color1 .bar-width{
   background: #2d7da4;
@@ -587,6 +588,51 @@ ul#nav li.current a { color: #F06000; }
   bottom: -15px;
   right: 8px;
 }
+
+@media only screen and (max-width: 767px) {
+ .progress-wrap h3{
+  font: 12px 'opensans-bold', sans-serif;
+  color: #313131;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: normal;
+  position: relative;
+  top: 6px;
+}
+.progress, 
+.progress-bar {
+  height: 15px;
+  line-height: 15px;
+  background: #e6e6e6;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  overflow: visible;
+  text-align: right;
+}
+
+.progress .bar-width{
+  position: absolute;
+  width: 40px;
+  height: 18px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 700;
+  top: -30px;
+  border-radius: 2px;
+  margin-left: -30px;
+}
+
+.bars .skills {
+  margin-top: 10px;
+  list-style: none;
+}
+
+
+}
+
 
 
 /*#skills li em {
