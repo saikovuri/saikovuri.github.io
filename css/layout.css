@@ -327,7 +327,7 @@ ul#nav li.current a { color: #F06000; }
  font-weight: bold;
  margin-bottom: 18px;
  margin-top: 5px !important;  
- margin-right: 35px !important
+ margin-right: 70px !important
 }
 #education .info span {
   display: none;
@@ -412,7 +412,7 @@ ul#nav li.current a { color: #F06000; }
   color: black;
   margin-bottom: 18px;
   margin-top: 5px !important;
-  margin-right: 30px;
+  margin-right: 50px;
 
 }
 #work .info span {
@@ -421,7 +421,7 @@ ul#nav li.current a { color: #F06000; }
  color: black;
  margin-right: 3px !important;
 }
-#work .date {
+#work .date { 
   font-weight: bold;
   color: black;
   font: 13px/24px 'opensans-regular', sans-serif !important;
