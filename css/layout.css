@@ -316,7 +316,7 @@ ul#nav li.current a { color: #F06000; }
 @media only screen and (max-width: 767px) {
 
 #education h3 {
-  padding-top: 10px !important;
+  padding-top: 15px !important;
   font: 15px/30px 'opensans-bold', sans-serif !important;
   margin-bottom: -5px 
 }
@@ -394,7 +394,7 @@ ul#nav li.current a { color: #F06000; }
 @media only screen and (max-width: 767px) {
 #work h3 {
  font: 14px/30px 'opensans-bold', sans-serif;
- padding-top: 10px;
+ padding-top: 15px;
  margin-bottom: -5px 
 }
 
