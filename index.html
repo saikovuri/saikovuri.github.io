@@ -601,7 +601,8 @@
   <div class="eight columns">
 
    <!-- form -->
-   <form action="inc/sendEmail.php" method="get" id="contactForm" name="contactForm">
+   <form action="sendEmail.php" method="post" id="contactForm" name="contactForm">
+
      <fieldset>
 
       <div>
@@ -625,7 +626,10 @@
      </div>
 
      <div>
-       <button class="submit">Submit</button>
+       <!-- <button class="submit">Submit</button> -->
+
+       <input type="submit" class="submit" value="submit"/>
+
        <span id="image-loader">
         <img alt="" src="images/loader.gif">
       </span>
@@ -646,9 +650,9 @@
 
 <aside class="four columns footer-widgets">
 
- <div style="padding-left:100px  " class="widget widget_contact">
+<div style="padding-left:50px  " class="widget widget_contact">
 
-  
+
   <h4>Address and Phone</h4> 
   <p class="address">
    Sai Kumar Kovuri<br>
