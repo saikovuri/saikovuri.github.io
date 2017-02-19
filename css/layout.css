@@ -1081,6 +1081,7 @@ a {
   -moz-transition: all 0.35s;
   transition: all 0.35s;
   color: #f05f40;
+
 }
 a:hover,
 a:focus {
