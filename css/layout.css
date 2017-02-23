@@ -40,7 +40,7 @@ body { background: #0f0f0f; }
 @media only screen and (max-width: 450px) {
   #name {
    letter-spacing: 0px ;
-   font-size: 26px !important;
+   font-size: 28px !important;
  }
 }
 header {
@@ -239,10 +239,15 @@ ul#nav li.current a { color: #F06000; }
 }
 
 @media only screen and (max-width: 767px) {
-  #about .download {
-    width: 20.33333%;
-    padding-top: 1px;
-  }
+ 
+#about p {
+ line-height: 30px;
+ color: #A9A9A9;
+ font-size: 15px;
+ text-align: justify;
+}
+
+
 }
 
 @media only screen and (max-width: 1000px) {
@@ -311,17 +316,27 @@ ul#nav li.current a { color: #F06000; }
 
 @media only screen and (max-width: 767px) {
 
+  #education {
+  background: #ebeeee;;
+  padding-top: 20px;
+  overflow: hidden;
+  padding-bottom: 20px;
+  }
+  #education h1 span {
+  border-bottom: 3px solid #11ABB0;
+  padding-bottom: 2px;
+  }
   #education h3 {
-    padding-top: 15px !important;
-    font: 15px/30px 'opensans-bold', sans-serif !important;
-    margin-bottom: -5px 
+    padding-top: 8px !important;
+    font: 18px/30px 'opensans-bold', sans-serif !important;
+    margin-bottom: 2px 
   }
 
   #education .info {
-   font-size : 13px !important ;
+   font-size : 14px !important ;
    color: black;
    font-weight: bold;
-   margin-bottom: 18px;
+   margin-bottom: 1x !important;
    margin-top: 5px !important;  
    /* margin-right: 70px !important*/
  }
@@ -334,7 +349,7 @@ ul#nav li.current a { color: #F06000; }
 #education .date {
   font-weight: bold;
   color: black;
-  font: 13px/24px 'opensans-regular', sans-serif !important;
+  font: 14px/24px 'opensans-regular', sans-serif !important;
   margin-top: 6px;
   
 }
@@ -394,8 +409,15 @@ ul#nav li.current a { color: #F06000; }
 }
 
 @media only screen and (max-width: 767px) {
+  #work {
+ background: #ebeeee;;
+ padding-top: 1px;   
+ padding-bottom: 25px;
+ overflow: hidden;
+}
+
   #work h3 {
-   font: 14px/30px 'opensans-bold', sans-serif;
+   font: 18px/30px 'opensans-bold', sans-serif;
    padding-top: 15px;
    margin-bottom: -5px 
  }
@@ -410,7 +432,7 @@ ul#nav li.current a { color: #F06000; }
 
 #work .info {
   font-weight: bold;
-  font-size:  13px !important;
+  font-size:  14px !important;
   color: black;
   margin-bottom: 18px;
   margin-top: 5px !important;
@@ -424,7 +446,7 @@ ul#nav li.current a { color: #F06000; }
 #work .date { 
   font-weight: bold;
   color: black;
-  font: 13px/24px 'opensans-regular', sans-serif !important;
+  font: 14px/24px 'opensans-regular', sans-serif !important;
   margin-top: 6px;
   
 }
