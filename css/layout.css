@@ -383,7 +383,7 @@ ul#nav li.current a { color: #F06000; }
 
 #work {
  background: #ebeeee;;
- padding-top: 20px;   
+ padding-top: 40px;   
  padding-bottom: 25px;
  overflow: hidden;
 }
@@ -495,7 +495,7 @@ ul#nav li.current a { color: #F06000; }
 
 #skills {
  background: #191919;
- padding-top: 40px;
+ padding-top: 50px;
  padding-bottom: 60px;
 
  overflow: hidden;
@@ -1085,8 +1085,8 @@ ul#nav li.current a { color: #F06000; }
 
 #contact {
  background: #191919;
- padding-top: 70px;
- padding-bottom: 102px;
+ padding-top: 100px;
+ padding-bottom: 100px;
  color: #636363;
 }
 
