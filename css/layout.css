@@ -24,14 +24,14 @@ body { background: #0f0f0f; }
 
 
 #name{
- font-size: 50px !important;
- margin-top: -200px;
+ font-size: 45px !important;
+ margin-top: -210px;
  letter-spacing: 1px;
 }
 
 
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 880px) {
   #name {
     font-size: 30px !important;
     margin-top: -220px;
@@ -39,9 +39,9 @@ body { background: #0f0f0f; }
  }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 600px) {
   #name {
-    margin-top: -210px;
+    margin-top: -250px;
    letter-spacing: 0px ;
    font-size: 20px !important;
  }

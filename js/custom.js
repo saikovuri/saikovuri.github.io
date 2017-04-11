@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function(){
   Typed.new('.intro-text', {
-    strings: ["^600 Sai Kumar Kovouri.", "^600 a Full Stack Developer."],
+    strings: ["^600 Sai Kumar Kovuri.", "^600 a Full Stack Developer."],
     typeSpeed: 0,
     startDelay: 1000,
     loop: true
